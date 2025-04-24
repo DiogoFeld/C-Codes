@@ -7,9 +7,12 @@
             Console.WriteLine("Hello, World!");
 
 
-            var result = SwitchExpression.GetCategory(4866);
-            Console.WriteLine(result);
+            //  var result = SwitchExpression.GetIdade(32);
+            //  Console.WriteLine(result);
 
         }
     }
 }
+
+
+

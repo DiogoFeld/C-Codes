@@ -50,6 +50,17 @@ namespace RandomCodes
             { Age: >= 65 } => "Senior discount",
             _ => "Regular price"
         };
+
+        public static string GetIdade(int anos) => anos switch
+        {
+            <= 3 => "bebe",
+            <= 12 => "crianca",
+            <= 18 => "adolescente",
+            <= 60 => "adulto",
+            _ => "idoso"
+        };
+
+
     }
 
     public class Person
