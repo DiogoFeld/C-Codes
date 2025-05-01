@@ -1,10 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace RandomCodes
 {
     public static class SwitchExpression
@@ -66,6 +59,33 @@ namespace RandomCodes
     public class Person
     {
         public string Name { get; set; }
-        public int Age { get; set; }
+        public int Age
+        {
+            get
+            {
+                return _age;
+            }
+            set
+            {
+                if(value < 120)
+                {
+                    _age = value;
+                }
+            }
+        }
+        private int _age;
+
+
+        public string Info
+        {
+            get
+            {
+                {
+                    return $"meu nome é {this.Name} e tenho {this.Age} anos";
+                }
+            }
+
+        }
+
     }
 }
