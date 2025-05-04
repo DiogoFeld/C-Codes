@@ -1,4 +1,4 @@
-namespace RandomCodes
+﻿namespace RandomCodes
 {
     public static class SwitchExpression
     {
@@ -86,6 +86,7 @@ namespace RandomCodes
             }
 
         }
-
     }
+
+
 }
