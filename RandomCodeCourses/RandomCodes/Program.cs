@@ -1,4 +1,5 @@
-﻿using RandomCodes.OOP;
+﻿using RandomCodes.Exepctions;
+using RandomCodes.OOP;
 using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -16,9 +17,11 @@ namespace RandomCodes
             //      Carro carro = new Carro("smart", 156);
             //      carro.Barulho();
             //      Console.WriteLine(carro.Velocidade());
-            int numberExtension = 7862;
-            Console.WriteLine(numberExtension.GetNumberLenght());
 
+            //int numberExtension = 7862;
+            //Console.WriteLine(numberExtension.GetNumberLenght());
+
+            Exceptions.RunExceptions();
         }
 
         public static class StringsTransformator

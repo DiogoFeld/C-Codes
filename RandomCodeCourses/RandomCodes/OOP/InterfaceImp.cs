@@ -41,7 +41,6 @@ namespace RandomCodes.OOP
 
     interface doMoreStuf
     {
-
         void doAnotherOfThis();
     }
 
