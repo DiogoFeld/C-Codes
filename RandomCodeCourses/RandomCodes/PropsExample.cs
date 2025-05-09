@@ -14,11 +14,9 @@ namespace RandomCodes
         }
     }
 
-
-
     public class Dog
     {
-        int Idade { get; set; }
+        public int Idade { get; private set; }//setters APENAS em métodos internos
         string nome { get; init; }
 
         public Dog(int idade, string nome)

@@ -1,4 +1,5 @@
 ﻿using RandomCodes.Exepctions;
+using RandomCodes.Generics;
 using RandomCodes.OOP;
 using System.Diagnostics.Tracing;
 using System.Linq;
@@ -21,7 +22,9 @@ namespace RandomCodes
             //int numberExtension = 7862;
             //Console.WriteLine(numberExtension.GetNumberLenght());
 
-            Exceptions.RunExceptions();
+            //Exceptions.RunExceptions();
+
+            //GenericsEx
         }
 
         public static class StringsTransformator
