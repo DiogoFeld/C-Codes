@@ -1,9 +1,4 @@
-﻿using RandomCodes.Exepctions;
-using RandomCodes.Generics;
-using RandomCodes.OOP;
-using System.Diagnostics.Tracing;
-using System.Linq;
-using System.Runtime.CompilerServices;
+﻿using RandomCodes.Generics;
 
 namespace RandomCodes
 {
@@ -25,6 +20,12 @@ namespace RandomCodes
             //Exceptions.RunExceptions();
 
             //GenericsEx
+
+            //SortedList<int> sortedList = new SortedList<int> { 1, 2, 3 };
+            //nao consegue implementar     
+
+
+
         }
 
         public static class StringsTransformator
