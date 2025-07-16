@@ -1,4 +1,5 @@
 ﻿using RandomCodes.Generics;
+using RandomCodes.UnderTheHoof;
 
 namespace RandomCodes
 {
@@ -26,25 +27,25 @@ namespace RandomCodes
 
 
 
-        }
+            //Exercise.CalculateAverageDurationInMilliseconds();
 
-        public static class StringsTransformator
-        {
-            public static string TransformSeparators(
-                string input,
-                string originalSeparator,
-                string targetSeparator)
+            RefExample refExample = new();
+
+
+            int example2 = 1;
+            refExample.addOneOnRef(ref example2);
+
+            outExp outExp = new();
+            outExp.showIntPi(out example2);
+
+
+            if (true)
             {
-                string result;
-
-                var array = input.Split(originalSeparator);
-                result = string.Join(targetSeparator, array);
-
-
-                return result;
-                //your code goes here
+                GarbbageCollector gc = new GarbbageCollector();
             }
+            GC.Collect();
         }
+
 
 
 
