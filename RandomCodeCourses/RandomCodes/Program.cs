@@ -1,5 +1,7 @@
-﻿using RandomCodes.Generics;
+﻿using RandomCodes.ComplexType;
+using RandomCodes.Generics;
 using RandomCodes.UnderTheHoof;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace RandomCodes
 {
@@ -27,23 +29,10 @@ namespace RandomCodes
 
 
 
-            //Exercise.CalculateAverageDurationInMilliseconds();
-
-            RefExample refExample = new();
-
-
-            int example2 = 1;
-            refExample.addOneOnRef(ref example2);
-
-            outExp outExp = new();
-            outExp.showIntPi(out example2);
+            Reflection reflection = new Reflection();
+            reflection.Test();
 
 
-            if (true)
-            {
-                GarbbageCollector gc = new GarbbageCollector();
-            }
-            GC.Collect();
         }
 
 
