@@ -28,6 +28,9 @@ namespace RandomCodes
             //nao consegue implementar     
 
 
+            NullLables nullLables = new NullLables();
+            nullLables.DoNull();
+
 
             Reflection reflection = new Reflection();
             reflection.Test();

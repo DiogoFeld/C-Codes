@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,12 +11,12 @@ namespace RandomCodes.ComplexType
     internal class RecordStruct
     {
         GpsCoordinates gpsCoordinates = new GpsCoordinates(1, 2);
+        string isnukl = null;
 
     }
 
 
-
-    public record struct GpsCoordinates(double Latitude,double Longitude);
+    public record struct GpsCoordinates(double Latitude, double Longitude);
     //public record  GpsCoordinates(double Latitude,double Longitude);
 
 
