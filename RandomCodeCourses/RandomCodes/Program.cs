@@ -1,5 +1,7 @@
-﻿using RandomCodes.ComplexType;
+﻿using RandomCodes.Collections;
+using RandomCodes.ComplexType;
 using RandomCodes.Generics;
+using RandomCodes.String;
 using RandomCodes.UnderTheHoof;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -28,13 +30,28 @@ namespace RandomCodes
             //nao consegue implementar     
 
 
-            NullLables nullLables = new NullLables();
-            nullLables.DoNull();
+            //NullLables nullLables = new NullLables();
+            //nullLables.DoNull();
 
 
-            Reflection reflection = new Reflection();
-            reflection.Test();
+            //Reflection reflection = new Reflection();
+            //reflection.Test();
 
+
+            //var stack = new Stack<string>();
+            //stack.Push("a");
+            //stack.Push("B");
+            //stack.Push("c");
+
+            //stack.DoesContainAny("a","b","c");
+
+
+            //charEx charEx = new charEx();
+            //charEx.Example();
+
+
+
+            StringBuilderExercise.Reverse("abc");
 
         }
 
