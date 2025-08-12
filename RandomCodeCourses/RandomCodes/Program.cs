@@ -1,6 +1,7 @@
 ﻿using RandomCodes.Collections;
 using RandomCodes.ComplexType;
 using RandomCodes.Generics;
+using RandomCodes.Integer;
 using RandomCodes.String;
 using RandomCodes.UnderTheHoof;
 using static System.Net.Mime.MediaTypeNames;
@@ -50,7 +51,7 @@ namespace RandomCodes
             //charEx.Example();
 
 
-
+            CheckedFibonacciExercise.GetFibonacci(10);
             StringBuilderExercise.Reverse("abc");
 
         }
