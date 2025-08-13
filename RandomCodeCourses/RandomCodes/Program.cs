@@ -1,5 +1,6 @@
 ﻿using RandomCodes.Collections;
 using RandomCodes.ComplexType;
+using RandomCodes.Delegate_Events;
 using RandomCodes.Generics;
 using RandomCodes.Integer;
 using RandomCodes.String;
@@ -51,8 +52,10 @@ namespace RandomCodes
             //charEx.Example();
 
 
-            CheckedFibonacciExercise.GetFibonacci(10);
-            StringBuilderExercise.Reverse("abc");
+            //CheckedFibonacciExercise.GetFibonacci(10);
+            //StringBuilderExercise.Reverse("abc");
+
+            MessageSender.DoStuff();
 
         }
 
