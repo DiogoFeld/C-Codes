@@ -40,6 +40,4 @@ namespace RandomCodes.Delegate_Events
         }
 
     }
-
-
 }
