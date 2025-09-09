@@ -4,6 +4,7 @@ using RandomCodes.Delegate_Events;
 using RandomCodes.Generics;
 using RandomCodes.Integer;
 using RandomCodes.String;
+using RandomCodes.Threads;
 using RandomCodes.UnderTheHoof;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -55,7 +56,12 @@ namespace RandomCodes
             //CheckedFibonacciExercise.GetFibonacci(10);
             //StringBuilderExercise.Reverse("abc");
 
-            MessageSender.DoStuff();
+            //MessageSender.DoStuff();
+
+
+            threadApply basicThread = new threadApply();
+            basicThread.Stuff();
+
 
         }
 
