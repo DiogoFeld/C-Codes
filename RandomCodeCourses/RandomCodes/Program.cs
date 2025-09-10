@@ -59,8 +59,7 @@ namespace RandomCodes
             //MessageSender.DoStuff();
 
 
-            ThreadPoolEx basicThread = new ThreadPoolEx();
-            basicThread.Stuff();
+            Exercise12.RunSimpleTask();
             // basicThread.Stuff();
 
         }
