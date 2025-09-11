@@ -59,8 +59,12 @@ namespace RandomCodes
             //MessageSender.DoStuff();
 
 
-            Exercise12.RunSimpleTask();
+            //Exercise12.RunSimpleTask();
             // basicThread.Stuff();
+
+            AwaitTask task = new AwaitTask();
+            task.DoStuff();
+
 
         }
 
